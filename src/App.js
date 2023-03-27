@@ -1,10 +1,10 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Meals from './Components/Meals';
-import "./Components/style.css"
+import Meals from './FoodCorner/Meals';
+import "./FoodCorner/style.css"
 import {Routes,Route} from 'react-router-dom';
-import Receipe from './Components/Receipe';
-import  Purchase  from './Components/Purchase';
+import Receipe from './FoodCorner/Receipe';
+import  Purchase  from './FoodCorner/Purchase';
 
 const App = ()=> {
   return (

@@ -12,7 +12,7 @@ const Purchase=()=> {
             <input type="textbox" placeholder='Name' /> <br />
             <input type="textarea" placeholder='Address'  /><br />
             <input type="tel" id="phone"  name="pno" placeholder='Mobile Number' ></input><br />
-            <Button className="btn" >Order</Button>
+            <button className="btn" >Order</button>
             </form>
         </div>
         </> 
