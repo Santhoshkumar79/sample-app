@@ -7,7 +7,7 @@ const MealItem= ({data})=> {
     return (
         <>
             {
-                (!data) ? "Not Found" : data.slice(0,10).map(item=> { 
+                (!data) ? "Loading" : data.slice(0,10).map(item=> { 
                    return <div className="card" key={item.idMeal} onClick={()=>{navigate(`/${item.idMeal}`)}}>
                         <img src={item.strMealThumb} alt="" />
                         <h3>{item.strMeal}</h3>

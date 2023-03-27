@@ -18,7 +18,7 @@ const Receipe=()=> {
     return (
         <>
             {
-                (!item)?"Not Found": <>
+                (!item) ? "Loading": <>
                 <div className="content" style={{display:"flex"}}>
                     <img src={item.strMealThumb} alt="" />
                     <div className='inner-content'>

@@ -11,7 +11,7 @@ const Meals = ()=> {
         fetch(url)
         .then(res=> res.json())
         .then(data=> {
-          console.log(data.meals);
+          setUrl(data.meals);
           setItem(data.meals);
           setShow(true);
         })
@@ -26,7 +26,7 @@ const Meals = ()=> {
             </div>
             <div className="container">
               {
-                show ? <MealItem data={item} />:"Not Found"
+                show ? <MealItem data={item} />:"Loading"
               }
             </div>
           </div>
