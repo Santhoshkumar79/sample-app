@@ -4,8 +4,10 @@ import Meals from './Components/Meals';
 import "./Components/style.css"
 import {Routes,Route} from 'react-router-dom';
 import Receipe from './Components/Receipe';
-import Purchase from './Components/Purchase';
-function App() {
+import  Purchase  from './Components/Purchase';
+
+const App = ()=> {
+
   return (
         <>
           <Routes>
