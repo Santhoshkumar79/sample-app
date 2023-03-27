@@ -7,7 +7,6 @@ import Receipe from './Components/Receipe';
 import  Purchase  from './Components/Purchase';
 
 const App = ()=> {
-
   return (
         <>
           <Routes>
