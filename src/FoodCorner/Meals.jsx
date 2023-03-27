@@ -22,7 +22,7 @@ const Meals = ()=> {
           <div className="main">
             <div className="heading">
               <h1>Food Receipes</h1>
-              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, maiores inventore ab porro error dolore, architecto debitis minus ea non omnis repellat officia eaque commodi voluptatum illum nam voluptate perspiciatis!</h4>
+              <h4>“Good food warms the heart and feeds the soul.”</h4>
             </div>
             <div className="container">
               {
